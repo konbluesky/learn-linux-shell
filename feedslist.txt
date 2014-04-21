@@ -1,0 +1,6 @@
+db2_All_Bak.sh
+feedslist.txt
+pas_do_at.sh
+pas_do_mt_one.sh
+remote_dev_ams.sh
+test_for.sh
