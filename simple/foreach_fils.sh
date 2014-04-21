@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 count=0;
 for file in ~/*; do
-	# 验证该文件是否为目录
+	#  验证该文件是否为目录
 	if [[ -d "$file" ]]; then
 		echo "This is directory for $file"
 	else
