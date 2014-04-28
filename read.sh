@@ -4,3 +4,6 @@ read First Second Third
 echo "The  First  is :" $First
 echo "The  Second is :" $Second
 echo "The  Third  is :" $Third
+TEST=3
+echo "$TEST = 3"
+echo '$TEST = 3'
