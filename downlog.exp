@@ -14,8 +14,8 @@
 #send_user "usage: $argv0 src_file username ip dest_file password\n"
 #exit 
 #} 
-set password [lindex $argv 0] 
-set host [lindex $argv 1] 
+set host [lindex $argv 0] 
+set password [lindex $argv 1] 
 spawn scp  -r $host:/root/software/tomcat8/logs .
 expect { 
         "(yes/no)?"
